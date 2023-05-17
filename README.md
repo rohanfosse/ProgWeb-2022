@@ -1,62 +1,62 @@
 # Cours de Programmation Web - ENSEIRB-MATMECA - 2021/2022
 
-## Informations générales
+## Vue d'ensemble
 
-Ce cours est une introduction à la programmation web. Il est destiné aux étudiants de première année de l'ENSEIRB-MATMECA. Il est composé de 4 parties :
+Ce cours offre une initiation à la programmation web et est conçu pour les étudiants de première année à l'ENSEIRB-MATMECA. Le programme du cours comprend quatre modules principaux :
 
 - HTML
 - CSS
 - PHP
 - SQL
 
-## Objectif du site
+## Objectifs du cours
 
-L'objectif de ce site est de fournir des ressources aux étudiants pour les aider à réaliser les exercices et les projets du cours. De plus, il permet de montrer aux étudiants comment réaliser un site web en utilisant les technologies vues dans le cours.
+Ce cours vise à fournir des ressources pédagogiques aux étudiants pour les assister dans la réalisation des exercices et des projets liés au cours. Par ailleurs, il offre un aperçu pratique de la création d'un site web en utilisant les technologies abordées lors des cours.
 
-En effet, après chaque cours, le site est mis à jour avec les nouvelles notions vues en cours. Ainsi, les étudiants peuvent voir comment utiliser ces nouvelles notions dans un site web.
+Après chaque session, le site est actualisé avec les nouvelles notions abordées. Cela permet aux étudiants de voir comment ces nouvelles notions peuvent être mises en œuvre dans un contexte de développement web.
 
-## Comment utiliser le site
+## Guide d'utilisation du site
 
-Pour coller au plus près avec les notions vue en cours, le site est réalisé en HTML, CSS, PHP et SQL. Il est donc nécessaire d'avoir un serveur web local pour pouvoir le faire fonctionner.
+Le site a été développé en utilisant les technologies HTML, CSS, PHP et SQL pour rester en phase avec les modules du cours. Pour pouvoir accéder au site, il est nécessaire de disposer d'un serveur web local.
 
-### En local
+### Utilisation locale
 
-#### En utilisant Docker
+#### Utilisation via Docker
 
-Pour utiliser le site en local, il est possible d'utiliser Docker. Pour cela, il faut installer Docker sur votre machine. Ensuite, il faut lancer la commande suivante :
+Pour exécuter le site localement, Docker peut être utilisé. Après avoir installé Docker sur votre machine, exécutez la commande suivante :
 
 ```bash
 docker build -t cours-web .
 ```
 
-Cette commande va créer une image Docker contenant le site. Ensuite, il faut lancer la commande suivante :
+Cette commande va créer une image Docker qui contient le site. Par la suite, vous pouvez lancer le site en utilisant la commande :
 
 ```bash
 docker run -d -p 8080:80 cours-web
 ```
 
-Cette commande va lancer un conteneur Docker contenant le site. Le site est alors accessible à l'adresse suivante :
+Cette commande va démarrer un conteneur Docker qui héberge le site. Vous pouvez ensuite accéder au site à l'adresse suivante :
 
 ```bash
 http://localhost:8080
 ```
 
-#### En clonant le dépôt
+#### Utilisation par clonage du dépôt
 
-Pour utiliser le site en local, il est possible de cloner le dépôt. Pour cela, il faut installer un serveur web local (par exemple Apache). Ensuite, il faut cloner le dépôt dans le dossier racine du serveur web local. Le site est alors accessible à l'adresse suivante :
+Une autre option pour exécuter le site localement est de cloner le dépôt. Pour ce faire, vous aurez besoin d'installer un serveur web local (par exemple, Apache). Ensuite, clonez le dépôt dans le répertoire racine du serveur web local. Vous pouvez alors accéder au site à l'adresse suivante :
 
 ```bash
 http://localhost/cours-web
 ```
 
-### En ligne
+### Accès en ligne
 
-Le site est également disponible en ligne à l'adresse suivante :
+Le site est également accessible en ligne à l'adresse suivante :
 
 ```bash
-...
+[Insérez l'URL ici]
 ```
 
 ## Auteur
 
-Ce site a été réalisé par [Rohan Fossé](https://rohanfosse.com). 
+Ce site a été développé par [Rohan Fossé](https://rohanfosse.com).
