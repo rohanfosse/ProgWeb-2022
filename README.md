@@ -54,7 +54,7 @@ http://localhost/cours-web
 Le site est également accessible en ligne à l'adresse suivante :
 
 ```bash
-[Insérez l'URL ici]
+http://153.92.222.205:8800/
 ```
 
 ## Auteur
