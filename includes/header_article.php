@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-<link rel="stylesheet" href="http://rfosse.vvv.enseirb-matmeca.fr/IT103/css/test_menu.css">
+<link rel="stylesheet" href="https://rohanfosse.com/ProgWeb/css/test_menu.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 <script type="text/javascript" src="https://static.filestackapi.com/v3/filestack.js"></script>
@@ -121,26 +121,26 @@ $(document).ready(function() {
   
         <div class="header-right">
         
-          <a class="active" href="http://rfosse.vvv.enseirb-matmeca.fr/IT103/index.php"><li>Accueil</li></a>
+          <a class="active" href="https://rohanfosse.com/ProgWeb/index.php"><li>Accueil</li></a>
           <li onclick="Project()">Projet</li>
     
     <li>Cours
       <ul class="drop">
         <div>
-          <a href="http://rfosse.vvv.enseirb-matmeca.fr/IT103/slides.php"><li>Slides</li></a>
-          <a href="http://rfosse.vvv.enseirb-matmeca.fr/IT103/articles/article_css.php"><li>HTML/CSS</li></a>
-          <a href="http://rfosse.vvv.enseirb-matmeca.fr/IT103/articles/article_php.php"><li>PHP</li></a>
-          <a href="http://rfosse.vvv.enseirb-matmeca.fr/IT103/articles/article_sql.php"><li>MYSQL</li></a>
-          <a href="http://rfosse.vvv.enseirb-matmeca.fr/IT103/Quizz/Quizz.php"><li>Quizz</li></a>
-          <a href="http://rfosse.vvv.enseirb-matmeca.fr/IT103/Examen/Sujet.php"><li>Examen</li></a>
+          <a href="https://rohanfosse.com/ProgWeb/slides.php"><li>Slides</li></a>
+          <a href="https://rohanfosse.com/ProgWeb/articles/article_css.php"><li>HTML/CSS</li></a>
+          <a href="https://rohanfosse.com/ProgWeb/articles/article_php.php"><li>PHP</li></a>
+          <a href="https://rohanfosse.com/ProgWeb/articles/article_sql.php"><li>MYSQL</li></a>
+          <a href="https://rohanfosse.com/ProgWeb/Quizz/Quizz.php"><li>Quizz</li></a>
+          <a href="https://rohanfosse.com/ProgWeb/Examen/Sujet.php"><li>Examen</li></a>
         </div>
       </ul>
     </li>
     <li>TP
       <ul class="drop">
         <div>
-          <a href="http://rfosse.vvv.enseirb-matmeca.fr/IT103/TP/TP1.php"><li>TP1</li></a>
-        <a href="http://rfosse.vvv.enseirb-matmeca.fr/IT103/TP/TP2.php"><li>TP2</li></a>
+          <a href="https://rohanfosse.com/ProgWeb/TP/TP1.php"><li>TP1</li></a>
+        <a href="https://rohanfosse.com/ProgWeb/TP/TP2.php"><li>TP2</li></a>
         </div>
       </ul>
     </li>
@@ -154,11 +154,11 @@ $(document).ready(function() {
       </div>
       <script>
         function Project() {
-          location.replace("http://rfosse.vvv.enseirb-matmeca.fr/IT103/Projet/project.php")
+          location.replace("https://rohanfosse.com/ProgWeb/Projet/project.php")
         }
 
         function Contact() {
-          location.replace("http://rfosse.vvv.enseirb-matmeca.fr/IT103/contact.php")
+          location.replace("https://rohanfosse.com/ProgWeb/contact.php")
         }
 
         </script>    
